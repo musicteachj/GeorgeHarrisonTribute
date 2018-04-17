@@ -1,3 +1,82 @@
-.test {
-	color: blue;
+body {
+	background-color: green;
 }
+
+.heading {
+	color: blue;
+	text-align: center;
+	background-color: pink;
+	height: 50px;
+}
+
+#container {
+    width:100%;
+    text-align:center;
+    background-color: yellow;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.left {
+    float:left;
+    width: 17%;
+    background-color: purple;
+    height: 550px;
+}
+
+.center {
+    display: inline-block;
+    margin:0 auto;
+    width: 45%;
+    background-color: purple;
+    height: 550px;
+}
+
+.right {
+    float:right;
+    width: 17%;
+    background-color: purple;
+    height: 550px;
+}
+
+.songList {
+    list-style:none;
+    padding-left:0;
+}​
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
