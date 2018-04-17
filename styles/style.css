@@ -1,16 +1,15 @@
-/** {
+* {
 	margin: 0;
 	padding: 0;
-}*/
+}
 
 /* Grabs the body element */
 body {
 	/* Declaration */
-	
-	/* Property: Value; */
 	background-image: url(../images/orange3.jpg);
 	background-repeat: no-repeat;
-    background-size: cover;
+  background-size: cover;
+  /* Property: Value; */
 }
 
 .heading {
@@ -23,6 +22,8 @@ body {
 	font-family: 'Kalam', cursive;
 	font-size: 24px;
 	border-radius: 5px;
+	border: 2px solid #512011;
+	margin-top: 10px;
 }
 
 #container {
@@ -39,13 +40,14 @@ body {
   float:left;
   width: 17%;
   background-color: #512011;
-  height: 580px;
+  height: 590px;
   font-family: 'Kalam', cursive;
-  font-size: 17px;
+  font-size: 15px;
   margin-left: 10px;
   border-radius: 5px;
 }
 
+/* Grabs all h1 elements that are nested inside the .left class */
 .left h1 {
 	font-size: 30px;
 }
@@ -60,7 +62,13 @@ a {
 }
 
 a:hover {
-	font-size: 20px;
+	font-size: 17px;
+	color: #FEBF58;
+	text-decoration: underline;
+}
+
+.material-icons {
+	margin-right: 5px;
 }
 
 .center {
@@ -76,6 +84,17 @@ a:hover {
   border: 2px solid #512011;
 }
 
+/* Targets any p elements that are children of the .center class */
+.center>p {
+	margin: 0 10px 0 10px;
+}
+
+/* Grabs the a element within the .center div */
+.center a:hover {
+	color: #512011;
+	text-decoration: underline;
+}
+
 .image {
 	width: 440px !important;
 	height: 300px;
@@ -89,13 +108,14 @@ a:hover {
   float:right;
   width: 17%;
   background-color: #512011;
-  height: 580px;
+  height: 590px;
   font-family: 'Kalam', cursive;
-  font-size: 17px;
+  font-size: 15px;
   margin-right: 10px;
   border-radius: 5px;
 }
 
+/* Grabs all h1 elements that are nested inside the .right class */
 .right h1 {
 	font-size: 30px;
 }
