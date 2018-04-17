@@ -1,82 +1,109 @@
+/** {
+	margin: 0;
+	padding: 0;
+}*/
+
+/* Grabs the body element */
 body {
-	background-color: green;
+	/* Declaration */
+	
+	/* Property: Value; */
+	background-image: url(../images/orange3.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .heading {
-	color: blue;
+	color: #512011;
 	text-align: center;
-	background-color: pink;
-	height: 50px;
+	background-color: #FEBF58;
+	margin:0 auto;
+	height: 60px;
+	width: 80%;
+	font-family: 'Kalam', cursive;
+	font-size: 24px;
+	border-radius: 5px;
 }
 
 #container {
-    width:100%;
-    text-align:center;
-    background-color: yellow;
-    margin-top: 20px;
-    height: 600px;
+	color: #512011;
+  width:100%;
+  text-align:center;
+  
+  margin-top: 20px;
+  height: 600px;
 }
 
 .left {
-    float:left;
-    width: 17%;
-    background-color: purple;
-    height: 550px;
+	color: white;
+  float:left;
+  width: 17%;
+  background-color: #512011;
+  height: 580px;
+  font-family: 'Kalam', cursive;
+  font-size: 17px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.left h1 {
+	font-size: 30px;
+}
+
+li {
+	margin-top: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	font-size: 20px;
 }
 
 .center {
-    display: inline-block;
-    margin:0 auto;
-    width: 45%;
-    background-color: purple;
-    height: 550px;
+	color: #512011;
+  display: inline-block;
+  margin:0 auto;
+  width: 50%;
+  background-color: #FEBF58;
+  height: 590px;
+  font-family: 'Kalam', cursive;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 2px solid #512011;
+}
+
+.image {
+	width: 440px !important;
+	height: 300px;
+	margin-top: 20px;
+	border: 2px solid #512011;
+	border-radius: 5px;
 }
 
 .right {
-    float:right;
-    width: 17%;
-    background-color: purple;
-    height: 550px;
+	color: white;
+  float:right;
+  width: 17%;
+  background-color: #512011;
+  height: 580px;
+  font-family: 'Kalam', cursive;
+  font-size: 17px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.right h1 {
+	font-size: 30px;
 }
 
 .songList {
-    list-style:none;
-    padding-left:0;
+  list-style:none;
+  padding-left:0;
 }​
 
-/* unvisited link */
-a:link {
-    color: red;
-}
 
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
-}
 
