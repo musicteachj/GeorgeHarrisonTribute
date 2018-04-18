@@ -125,22 +125,4 @@ a:hover {
   padding-left:0;
 }​
 
-@media screen and (max-width: 980px) {
-  .center {
-    background-color: lightblue;
-  }
-
-  body {
-  	background-color: blue;
-  }
-
-  .left {
-  	background-color: blue;
-  }
-
-  .right {
-  	color: blue;
-  }
-}
-
 
