@@ -6,9 +6,16 @@
 }
 
 /* Small desktop screens */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1296px) {
   .center {
     background-color: blue;
+    height: 610px;
+  }
+  .left {
+  	height: 610px;
+  }
+  .right {
+  	height: 610px;
   }
 }
 
