@@ -20,7 +20,7 @@
 }
 
 /* Tablet Portrait */
-@media only screen and (min-device-width : 720px) and (max-width: 768px) {
+@media only screen and (min-device-width : 720px) and (max-width: 1023px) {
   .left {
   	background-color: red;
   }
