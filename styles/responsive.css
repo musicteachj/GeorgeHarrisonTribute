@@ -1,36 +1,109 @@
 /* Large Desktop */
 @media only screen and (min-device-width : 1601px) and (max-width: 1920px) {
 	.left {
-		background-color: white;
+		background-color: ;
 	}
 }
 
-/* Desktop */
-@media only screen and (min-device-width : 1280px) and (max-width: 1600px) {
+@media only screen and (min-device-width : 1355px) and (max-width: 1600px) {
+	.center {
+		background-color: ;
+	}
+}
+
+@media only screen and (min-device-width : 1164px) and (max-width: 1354px) {
+	body {
+		height: 780px;
+	}
 	.left {
-		background-color: blue;
+		height: 660px;
+	}
+	.center {
+		height: 660px;
+	}
+	.right {
+		height: 660px;
 	}
 }
 
-/* Tablet Landscape */
-@media only screen and (min-device-width : 1023px) and (max-width: 1279px) {
+@media only screen and (min-device-width : 1000px) and (max-width: 1163px) {
+	body {
+		height: 840px;
+	}
 	.left {
-		background-color: green;
-		height: 100px;
+		height: 700px;
+	}
+	.center {
+		height: 700px;
+	}
+	.right {
+		height: 700px;
 	}
 }
 
-/* Tablet Portrait */
-@media only screen and (min-device-width : 720px) and (max-width: 768px) {
-  .left {
-  	background-color: red;
-  }
-}
-
-/* Phone */
-@media only screen and (min-device-width : 320px) and (max-width: 480px) {
+@media only screen and (min-device-width : 845px) and (max-width: 999px) {
 	.left {
-		background-color: pink;
+		height: ;
+	}
+	.center {
+		height: ;
+	}
+	.right {
+		height: ;
+	}
+	.image {
+		width: 290px;
+		height: 220px;
 	}
 }
 
+@media only screen and (min-device-width : 800px) and (max-width: 844px) {
+	.left {
+		height: ;
+	}
+	.center {
+		height: 730px;
+	}
+	.right {
+		height: ;
+	}
+	.image {
+		width: 290px;
+		height: 220px;
+	}
+}
+
+@media only screen and (min-device-width : 745px) and (max-width: 799px) {
+	body {
+		height: 900px;
+	}
+	.left {
+		height: ;
+	}
+	.center {
+		height: 760px;
+	}
+	.right {
+		height: ;
+	}
+	.image {
+		width: 290px;
+		height: 220px;
+	}
+}
+
+@media only screen and (min-device-width : 700px) and (max-width: 744px) {
+	.left {
+		height: ;
+	}
+	.center {
+		height: 820px;
+	}
+	.right {
+		height: ;
+	}
+	.image {
+		width: 290px;
+		height: 220px;
+	}
+}
