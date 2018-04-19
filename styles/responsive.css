@@ -1,38 +1,35 @@
-/* Large desktop screens */
-@media only screen and (max-width: 1680px) {
-  .center {
-    background-color: ;
-  }
-}
-
-/* Small desktop screens */
-@media only screen and (max-width: 1296px) {
-	body {
-		height: 720px;
+/* Large Desktop */
+@media only screen and (min-device-width : 1601px) and (max-width: 1920px) {
+	.left {
+		background-color: white;
 	}
-  .center {
-    background-color: blue;
-    height: 610px;
-  }
+}
+
+/* Desktop */
+@media only screen and (min-device-width : 1280px) and (max-width: 1600px) {
+	.left {
+		background-color: blue;
+	}
+}
+
+/* Tablet Landscape */
+@media only screen and (min-device-width : 1024px) and (max-width: 1279px) {
+	.left {
+		background-color: green;
+	}
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width : 720px) and (max-width: 768px) {
   .left {
-  	height: 610px;
-  }
-  .right {
-  	height: 610px;
+  	background-color: red;
   }
 }
 
-/* Tablet screens */
-@media only screen and (max-width: 800px) {
-  .center {
-    background-color: blue;
-  }
-}
-
-/* Small phone screens */
-@media only screen and (max-width: 480px) {
-  .center {
-    background-color: pink;
-  }
+/* Phone */
+@media only screen and (min-device-width : 320px) and (max-width: 480px) {
+	.left {
+		background-color: pink;
+	}
 }
 
