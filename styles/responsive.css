@@ -1,6 +1,5 @@
 @media only screen and (min-device-width : 1297px) and (max-width: 1366px) {
 	.left {
-		background-color: blue;
 	}
 }
 
@@ -9,7 +8,6 @@
 		height: 730px;
 	}
 	.left {
-		background-color: red;
 		height: 610px;
 	}
 	.center {
@@ -21,7 +19,17 @@
 }
 
 @media only screen and (min-device-width : 980px) and (max-width: 1024px) {
+	body {
+		height: 790px;
+	}
 	.left {
 		background-color: green;
+		height: 690px;
+	}
+	.center {
+		height: 690px;
+	}
+	.right {
+		height: 690px;
 	}
 }
