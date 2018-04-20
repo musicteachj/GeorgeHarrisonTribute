@@ -28,6 +28,26 @@
 	}
 }
 
+@media only screen and (min-width : 769px) and (max-width: 979px) {
+	body {
+		height: 1396px;
+	}
+	.left {
+		height: 700px;
+	}
+	.center {
+		height: 850px;
+		font-size: 19px;
+	}
+	.right {
+		height: 700px;
+	}
+	.image {
+		width: 330px;
+		height: 200px;
+	}
+}
+
 @media only screen and (min-width : 641px) and (max-width: 768px) {
 	body {
 		height: 1024px;
@@ -37,7 +57,7 @@
 		width: 19%;
 	}
 	.center {
-		height: 860px;
+		height: 870px;
 		font-size: 19px
 	}
 	.center a:hover {
