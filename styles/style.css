@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
 /* Grabs the body element */
 body {
 	/* Declaration */
@@ -15,7 +21,7 @@ body {
 .heading {
 	color: #512011;
 	text-align: center;
-	background-color: #FEBF58;
+	
 	margin:0 auto;
 	height: 60px;
 	width: 80%;
